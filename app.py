@@ -17,18 +17,18 @@ import html
 import base64
 from streamlit_extras.app_logo import add_logo
 
-agg_trans_data = pd.read_csv("D:/DATA SCIENCE ZONE/Projects/project_2_phonepe_pulse/phonepe_pulse/dataset/agg_trans_data.csv")
+agg_trans_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/agg_trans_data.csv")
 agg_trans_data['State'] = agg_trans_data['State'].replace('Andaman & Nicobar Islands', 'Andaman & Nicobar')
-map_trans_data = pd.read_csv("D:/DATA SCIENCE ZONE/Projects/project_2_phonepe_pulse/phonepe_pulse/dataset/map_trans_data.csv")
+map_trans_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/map_trans_data.csv")
 map_trans_data['State'] = map_trans_data['State'].replace('Andaman And Nicobar Islands', 'Andaman & Nicobar')
 map_trans_data['State'] = map_trans_data['State'].replace('Jammu And Kashmir', 'Jammu & Kashmir')
-map_user_data = pd.read_csv("D:/DATA SCIENCE ZONE/Projects/project_2_phonepe_pulse/phonepe_pulse/dataset/map_user_data.csv")
+map_user_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/map_user_data.csv")
 map_user_data['State'] = map_user_data['State'].replace('Andaman And Nicobar Islands', 'Andaman & Nicobar')
 map_user_data['State'] = map_user_data['State'].replace('Jammu And Kashmir', 'Jammu & Kashmir')
-agg_ins_data = pd.read_csv("D:/DATA SCIENCE ZONE/Projects/project_2_phonepe_pulse/phonepe_pulse/dataset/agg_ins_data.csv")
+agg_ins_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/agg_ins_data.csv")
 agg_ins_data['State'] = agg_ins_data['State'].replace('Andaman & Nicobar Islands', 'Andaman & Nicobar')
 agg_ins_data['State'] = agg_ins_data['State'].replace('Jammu & Kashmir', 'Jammu & Kashmir')
-map_ins_data = pd.read_csv("D:/DATA SCIENCE ZONE/Projects/project_2_phonepe_pulse/phonepe_pulse/dataset/map_ins_data.csv")
+map_ins_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/map_ins_data.csv")
 map_ins_data['State'] = map_ins_data['State'].replace('Andaman And Nicobar Islands', 'Andaman & Nicobar')
 map_ins_data['State'] = map_ins_data['State'].replace('Jammu And Kashmir', 'Jammu & Kashmir')
 
