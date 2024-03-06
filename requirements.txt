@@ -1,0 +1,12 @@
+pandas
+os
+plotly
+plotly-express
+streamlit
+streamlit-option-menu
+numpy
+time
+json
+pillow
+html
+base64
