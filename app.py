@@ -11,7 +11,6 @@ import PIL
 from PIL import Image
 import html
 import base64
-from streamlit_extras.app_logo import add_logo
 
 agg_trans_data = pd.read_csv("https://raw.githubusercontent.com/navinds/PhonePe-Pulse-Data-Visualization-and-Exploration/main/dataset/agg_trans_data.csv")
 agg_trans_data['State'] = agg_trans_data['State'].replace('Andaman & Nicobar Islands', 'Andaman & Nicobar')
