@@ -1921,7 +1921,7 @@ if selected == "TOP INSIGHTS" :
     if insights_type == "**Insurance**":
         ins_insights_container =  st.container(border = True)
         ins_insights_container.subheader("Insights Types")
-        ins_insights_filter_type = ins_insights_container.radio("Select Type", ["Geo Visualization","Top Insights", "Basic Insights"],key="user_insights", horizontal=True)
+        ins_insights_filter_type = ins_insights_container.radio("Select Type", ["Geo Visualization","Top Insights"],key="user_insights", horizontal=True)
         
         if ins_insights_filter_type == "Geo Visualization":
 
