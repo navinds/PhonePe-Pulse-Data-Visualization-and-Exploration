@@ -1,7 +1,7 @@
 1. Open your web browser and navigate to the GitHub repository for PhonePe Pulse: [PhonePe Pulse Repository](https://github.com/PhonePe/pulse).
 
 2. On the repository page, click on the green "Code" button located towards the top right. This will reveal a dropdown menu.
- ![Screenshot](https://i.postimg.cc/gkyPxgWG/Screenshot-2024-03-07-232326.png)  
+![Screenshot](https://i.postimg.cc/qM69P0wb/Screenshot-2024-03-07-232326-copy.png)  
 
 3. In the dropdown menu, click on the clipboard icon next to the HTTPS link to copy the clone URL.
 ![Screenshot](https://i.postimg.cc/gkyPxgWG/Screenshot-2024-03-07-232326.png)  
