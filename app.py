@@ -196,7 +196,7 @@ def state_coordinate():
 
 
 # Set page title and favicon
-st.set_page_config(page_title="Navin's Phonepe Data App",layout="wide", page_icon="💰")
+st.set_page_config(page_title="Navin's Pulse Vision-A Phonepe Data App",layout="wide", page_icon="💰")
 violet_color = "#6F36AD"
 
 st.markdown("<div style='text-align:center'><a href='https://postimg.cc/VrCzqwSm'><img src='https://i.postimg.cc/9f5pfZq5/Navin-s-Pulse-Vision-resize.png' alt='pulse-2.webp'/></a></div>", unsafe_allow_html=True)
@@ -426,7 +426,7 @@ if selected == "TOP INSIGHTS" :
                     return india  
                               
                 trans_geo_queries = ["Total Data","District Wise Total Data"]
-                st.title("Transaction Data Distribution Across States")      
+                st.title(":violet[Transaction Data Distribution Across States]")      
                 selected_query = st.selectbox("Select a Query", trans_geo_queries,key ="trans_geo_query",index= 0)  
             
                 if selected_query == trans_geo_queries[0]:
@@ -1303,7 +1303,7 @@ if selected == "TOP INSIGHTS" :
                 if selected_query:
                     if selected_query == top_queries[4]:                         
                         def Quar_wise_trans_dis():
-                            st.info("You selected: Quarter-wise transaction amount distribution for specific state")
+                            st.info("You selected: Quarter-wise transaction distribution for specific state")
                               
                             selected_state = st.selectbox("Select State", sorted(agg_trans_data['State'].unique()),index= None)
                             selected_year = st.selectbox("Select Year", sorted(agg_trans_data['Year'].unique()),index= None)
@@ -1406,7 +1406,7 @@ if selected == "TOP INSIGHTS" :
                               
                 user_geo_queries = ["Total Users",
                                    "District Wise Total Users"]
-                st.title(":orange[User Count Distribution Across States]")      
+                st.title(":violet[User Count Distribution Across States]")      
                 user_geo_selected_query = st.selectbox("Select a Query", user_geo_queries,index= 0)  
             
                 if user_geo_selected_query ==  user_geo_queries[0]:
@@ -1934,7 +1934,7 @@ if selected == "TOP INSIGHTS" :
                               
                 ins_amt_geo_queries = ["Total Insurance",
                                       "District Wise Total Insurance"]
-                st.title(':orange[Insurance Data Distribution Across States]') 
+                st.title(':violet[Insurance Data Distribution Across States]') 
                 ins_amt_geo_selected_query = st.selectbox("Select a Query", ins_amt_geo_queries,index= 0)  
             
                 if ins_amt_geo_selected_query ==  ins_amt_geo_queries[0]:
@@ -2559,7 +2559,7 @@ if selected == "TOP INSIGHTS" :
                     if selected_query == top_queries[3]:                         
                         def Quar_wise_ins_dis():
 
-                            st.info("You selected: Quarter-wise transaction amount distribution for specific state")
+                            st.info("You selected: Quarter-wise transaction distribution for specific state")
                             
                             selected_state = st.selectbox("Select State", sorted(agg_ins_data['State'].unique()),index= None)
                             selected_year = st.selectbox("Select Year", sorted(agg_ins_data['Year'].unique()),index= None)
@@ -2647,7 +2647,7 @@ if selected == "FILTERED INSIGHTS":
                                     def trans_amount_by_state_transtype():
 
 
-                                        st.info("You selected: Transaction Amount growth for a specific state & specific Transaction Type")
+                                        st.info("You selected: Transaction growth for a specific state & specific Transaction Type")
 
                                         selected_state = st.selectbox("Select State", sorted(agg_trans_data['State'].unique()),index= None)
                                         selected_Transaction_Type = st.selectbox("Select Transaction Type", sorted(agg_trans_data['Transaction_Type'].unique()),index= None)
@@ -2715,7 +2715,7 @@ if selected == "FILTERED INSIGHTS":
                                 if selected_query == statewise_transaction_queries[1]:  # Query 2
 
                                     def Q_wise_trans_dis():
-                                        st.info("You selected: Quarter-wise transaction amount distribution for specific state")
+                                        st.info("You selected: Quarter-wise transaction distribution for specific state")
                                         
                                         selected_year = st.selectbox("Select Year", sorted(agg_trans_data['Year'].unique()),index= None)
                                         selected_state = st.selectbox("Select State", sorted(agg_trans_data['State'].unique()),index= None)
@@ -2874,7 +2874,7 @@ if selected == "FILTERED INSIGHTS":
 
                             districtwise_transaction_queries = ["Year-wise Growth of Transaction Data by District",
                                                                 "Transaction Amount & Transaction count distribution by district for selected state and year",
-                                                                "Total Sum of Amount by District Across All Districts"]
+                                                                "Total Sum of Amount by State Across All Districts"]
                             
                             selected_query = st.selectbox("Select a Query", districtwise_transaction_queries,index= None)
 
@@ -2882,7 +2882,7 @@ if selected == "FILTERED INSIGHTS":
                                 if selected_query == districtwise_transaction_queries[0]:  
                                     
                                     def year_wise_amount_growth_by_dist():
-                                        st.info("You selected: Year-wise Growth of Amount by District")
+                                        st.info("You selected: Year-wise Growth of Transaction by District")
 
                                         selected_state = st.selectbox("Select State", sorted(map_trans_data.State.unique()),index= None)
                                         selected_district = st.selectbox("Select State", sorted(map_trans_data[map_trans_data.State == selected_state].District.unique()),index= None)
@@ -2938,7 +2938,7 @@ if selected == "FILTERED INSIGHTS":
                             if selected_query:
                                 if selected_query == districtwise_transaction_queries[1]:   
                                     def tc_by_dist_state_year_wise():
-                                        st.info("You selected: Transaction count distribution by district for selected state and year")
+                                        st.info("You selected: Transaction distribution by district for selected state and year")
 
                                         selected_state = st.selectbox("Select State", sorted(map_trans_data.State.unique()),index= None)
                                         selected_year = st.selectbox("Select Year", sorted(map_trans_data.Year.unique()),index= None)
@@ -2979,7 +2979,7 @@ if selected == "FILTERED INSIGHTS":
                             if selected_query:
                                 if selected_query == districtwise_transaction_queries[2]:   
                                     def dist_wise_total_amnt_sum():
-                                        st.info("You selected: Total Sum of Amount by District Across All Districts")
+                                        st.info("You selected: Total Sum of Transactions by State Across All Districts")
 
                                         selected_state = st.selectbox("Select State", sorted(map_trans_data.State.unique()),index= None)
                                         dist_wise_total_amnt_sum = map_trans_data.loc[(map_trans_data.State == selected_state)].groupby("District",as_index = False).Amount.sum()
@@ -3036,8 +3036,7 @@ if selected == "FILTERED INSIGHTS":
                     if trans_type == "State Wise":
                         
                         def state_wise_ins():
-                            statewise_Insurance_queries = ["Quarter-wise Insurance amount & count distribution for specific state",
-                                                "Comparing data for the specific Insurance type on quarter, and year","Distribution of Insurance Across Different Insurance Types for a specific state",]
+                            statewise_Insurance_queries = ["Quarter-wise Insurance amount & count distribution for specific state"]
                             
                             selected_query = st.selectbox("Select a Query", statewise_Insurance_queries,index= None)
 
@@ -3046,7 +3045,7 @@ if selected == "FILTERED INSIGHTS":
                                 if selected_query == statewise_Insurance_queries[0]:  # Query 2
 
                                     def Q_wise_ins_dis():
-                                        st.info("You selected: Quarter-wise Insurance amount distribution for specific state")
+                                        st.info("You selected: Quarter-wise Insurance amount & count distribution for specific state")
                                         
                                         selected_year = st.selectbox("Select Year", sorted(agg_ins_data['Year'].unique()),index= None)
                                         selected_state = st.selectbox("Select State", sorted(agg_ins_data['State'].unique()),index= None)
@@ -3109,7 +3108,7 @@ if selected == "FILTERED INSIGHTS":
 
                             districtwise_Insurance_queries = ["Year-wise Growth of Insurance Data by District",
                                                                 "Insurance Amount & Insurance count distribution by district for selected state and year",
-                                                                "Total Sum of Amount by District Across All Districts"]
+                                                                "Total Sum of Insurance by District Across All Districts"]
                             
                             selected_query = st.selectbox("Select a Query", districtwise_Insurance_queries,index= None)
 
@@ -3171,7 +3170,7 @@ if selected == "FILTERED INSIGHTS":
                             if selected_query:
                                 if selected_query == districtwise_Insurance_queries[1]:   
                                     def tc_by_dist_state_year_wise():
-                                        st.info("You selected: Insurance count distribution by district for selected state and year")
+                                        st.info("You selected: Insurance Amount & Insurance count distribution by district for selected state and year")
 
                                         selected_state = st.selectbox("Select State", sorted(map_ins_data.State.unique()),index= None)
                                         selected_year = st.selectbox("Select Year", sorted(map_ins_data.Year.unique()),index= None)
@@ -3212,7 +3211,7 @@ if selected == "FILTERED INSIGHTS":
                             if selected_query:
                                 if selected_query == districtwise_Insurance_queries[2]:   
                                     def dist_wise_total_amnt_sum():
-                                        st.info("You selected: Total Sum of Amount by District Across All Districts")
+                                        st.info("You selected: Total Sum of Insurance by District Across All Districts")
 
                                         selected_state = st.selectbox("Select State", sorted(map_ins_data.State.unique()),index= None)
                                         dist_wise_total_amnt_sum = map_ins_data.loc[(map_ins_data.State == selected_state)].groupby("District",as_index = False).Amount.sum()
@@ -3278,7 +3277,7 @@ if selected == "FILTERED INSIGHTS":
                                 if selected_query == statewise_Insurance_queries[0]:  # Query 2
 
                                     def Q_wise_users_dis():
-                                        st.info("You selected: Quarter-wise Insurance amount distribution for specific state")
+                                        st.info("You selected: Quarter-wise User Count for specific state")
                                         
                                         selected_year = st.selectbox("Select Year", sorted(map_user_data['Year'].unique()),index= None)
                                         selected_state = st.selectbox("Select State", sorted(map_user_data['State'].unique()),index= None)
@@ -3329,7 +3328,7 @@ if selected == "FILTERED INSIGHTS":
                                 if selected_query == districtwise_Insurance_queries[0]:  
                                     
                                     def year_wise_user_growth_by_dist():
-                                        st.info("Year-wise Growth of Insurance Data by District")
+                                        st.info("Year-wise Growth of Users by District")
 
                                         selected_state = st.selectbox("Select State", sorted(map_user_data.State.unique()),index= None)
                                         selected_district = st.selectbox("Select State", sorted(map_user_data[map_user_data.State == selected_state].District.unique()),index= None)
@@ -3365,7 +3364,7 @@ if selected == "FILTERED INSIGHTS":
                             if selected_query:
                                 if selected_query == districtwise_Insurance_queries[1]:   
                                     def users_by_dist_state_year_wise():
-                                        st.info("You selected: Insurance count distribution by district for selected state and year")
+                                        st.info("You selected: User distribution by district for selected state and year")
 
                                         selected_state = st.selectbox("Select State", sorted(map_user_data.State.unique()),index= None)
                                         selected_year = st.selectbox("Select Year", sorted(map_user_data.Year.unique()),index= None)
