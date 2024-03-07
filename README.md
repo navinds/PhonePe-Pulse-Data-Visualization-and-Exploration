@@ -43,6 +43,15 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
 
 **Note:** Make sure you have Git installed on your computer before following these instructions. You can download Git from [here](https://git-scm.com/).
 
+###otherwise
+1. Open your web browser and navigate to the GitHub repository for PhonePe Pulse: [PhonePe Pulse Repository](https://github.com/PhonePe/pulse). 
+2. On the repository page, click on the green "Code" button located towards the top right. This will reveal a dropdown menu.
+![Screenshot](https://i.postimg.cc/htxhywgv/Screenshot-2024-03-07-222731.png)  
+3. In the dropdown menu, click on the download zip option,it will start download.
+![Screenshot](https://i.postimg.cc/K8f166pm/Screenshot-2024-03-07-222709.png)  
+4.After successful download you need to unzip the folder and then you can use.
+
+
 ## Project Overview
 
 Navin's Pulse Vision aims to extract valuable insights from PhonePe Pulse data and present them in an easy-to-understand format. The project analyzes three main types of data:
