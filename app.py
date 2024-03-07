@@ -199,7 +199,7 @@ def state_coordinate():
 st.set_page_config(page_title="Navin's Pulse Vision-A Phonepe Data App",layout="wide", page_icon="https://i.postimg.cc/4xzCQFWX/rock-chart-2.png")
 violet_color = "#6F36AD"
 
-st.markdown("<div style='text-align:center'><a href='https://postimg.cc/VrCzqwSm'><img src='https://i.postimg.cc/VktZcrtg/Navin-s-Pulse-Vision-NEW-resize.png' alt='pulse-2.webp'/></a></div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align:center'><a href='https://postimg.cc/VrCzqwSm'><img src='https://i.postimg.cc/ydcYJMNc/new-logo-navins-pulse-vision.png' alt='pulse-2.webp'/></a></div>", unsafe_allow_html=True)
 
 
 selected = option_menu("Navigation",
