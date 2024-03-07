@@ -457,7 +457,7 @@ if selected == "TOP INSIGHTS" :
                                     df,
                                     geojson= india_geojson(),
                                     locations='State',
-                                    mapbox_style="carto-positron",
+                                    mapbox_style="stamen-watercolor",
                                     zoom=3.5,
                                     center={"lat": 21.7679, "lon": 78.8718}, 
                                     # opacity=0.5,
