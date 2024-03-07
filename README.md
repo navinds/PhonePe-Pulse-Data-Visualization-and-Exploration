@@ -120,7 +120,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## About the Developer
 
-Navin's Pulse Vision is developed by [Navin Kumar S], a dedicated tech enthusiast with a passion for the sea of data science and AI. My goal is to become a skilled data scientist.
+Navin's Pulse Vision is developed by Navin Kumar S, a dedicated tech enthusiast with a passion for the sea of data science and AI. My goal is to become a skilled data scientist.
 
 Beyond the lines of code, my aim is to innovate and be a part of transformative technological evolution. The world needs solutions that not only solve problems but redefine them. I'm here to create change.
 
@@ -130,3 +130,11 @@ For reference and further information on PhonePe Pulse, visit [PhonePe Pulse](ht
 ---
 
 Explore Navin's Pulse Vision to gain valuable insights from PhonePe Pulse data. For any inquiries or suggestions, please contact the project owner, Navin.
+
+## Contact
+
+- **LinkedIn:** [Navin](https://www.linkedin.com/in/navinkumarsofficial/)
+- **Email:** navinofficial1@gmail.com
+
+Feel free to connect with me on LinkedIn or reach out via email for any inquiries or collaboration opportunities.
+
