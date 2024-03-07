@@ -91,9 +91,7 @@ The project leverages a range of technologies to deliver efficient data analysis
 - **Interactive Visualization**: Plotly, a versatile graphing library, was employed to create interactive and visually appealing plots and charts. This allows users to explore data dynamically and gain deeper insights.
 - **Web Application Development**: Streamlit, a user-friendly framework for web application development, was utilized to create an intuitive and responsive user interface. Streamlit enables rapid prototyping and deployment of data-driven applications.
 
-Required Libraries:
-
-- **Python Libraries**: 
+- **Required Python Libraries**: 
   - pandas
   - plotly
   - streamlit
