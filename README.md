@@ -13,7 +13,7 @@ The data used in this analysis is derived from PhonePe Pulse, offering reliable 
 
 ## How to get Data
 To include instructions on how to obtain the clone link for the PhonePe Pulse data repository, you can modify the Markdown file as follows:
-# How to Clone PhonePe Pulse Data Repository
+### How to Clone PhonePe Pulse Data Repository
 
 1. Open your web browser and navigate to the GitHub repository for PhonePe Pulse: [PhonePe Pulse Repository](https://github.com/PhonePe/pulse).
 
@@ -42,7 +42,6 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
 9. You can now navigate to the cloned repository directory and access its contents using Git Bash or any file explorer.
 
 **Note:** Make sure you have Git installed on your computer before following these instructions. You can download Git from [here](https://git-scm.com/).
-```
 
 ## Project Overview
 
