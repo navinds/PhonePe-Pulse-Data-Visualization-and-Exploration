@@ -18,8 +18,10 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
 1. Open your web browser and navigate to the GitHub repository for PhonePe Pulse: [PhonePe Pulse Repository](https://github.com/PhonePe/pulse).
 
 2. On the repository page, click on the green "Code" button located towards the top right. This will reveal a dropdown menu.
+![Screenshot](https://i.postimg.cc/htxhywgv/Screenshot-2024-03-07-222731.png)  
 
 3. In the dropdown menu, click on the clipboard icon next to the HTTPS link to copy the clone URL.
+   ![Screenshot](https://i.postimg.cc/gkyPxgWG/Screenshot-2024-03-07-232326.png)  
 
 4. Open Git Bash on your computer.
 
@@ -36,6 +38,7 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
    Replace `<paste_clone_url_here>` with the URL you copied from the GitHub repository page.
 
 7. Press Enter to execute the command.
+    ![Screenshot](https://i.postimg.cc/qM69P0wb/Screenshot-2024-03-07-232326-copy.png)  
 
 8. Git will clone the repository to your specified directory. Once the cloning process is complete, you will have a local copy of the PhonePe Pulse data repository on your computer.
 
