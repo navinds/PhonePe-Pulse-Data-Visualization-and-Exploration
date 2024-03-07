@@ -43,7 +43,7 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
 
 **Note:** Make sure you have Git installed on your computer before following these instructions. You can download Git from [here](https://git-scm.com/).
 
-###otherwise
+### Otherwise
 1. Open your web browser and navigate to the GitHub repository for PhonePe Pulse: [PhonePe Pulse Repository](https://github.com/PhonePe/pulse). 
 2. On the repository page, click on the green "Code" button located towards the top right. This will reveal a dropdown menu.
 ![Screenshot](https://i.postimg.cc/htxhywgv/Screenshot-2024-03-07-222731.png)  
