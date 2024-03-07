@@ -38,6 +38,7 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
    Replace `<paste_clone_url_here>` with the URL you copied from the GitHub repository page.
 
 7. Press Enter to execute the command.
+
 ![Screenshot](https://i.postimg.cc/qM69P0wb/Screenshot-2024-03-07-232326-copy.png)  
 
 8. Git will clone the repository to your specified directory. Once the cloning process is complete, you will have a local copy of the PhonePe Pulse data repository on your computer.
