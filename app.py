@@ -196,10 +196,10 @@ def state_coordinate():
 
 
 # Set page title and favicon
-st.set_page_config(page_title="Navin's Pulse Vision-A Phonepe Data App",layout="wide", page_icon="https://i.postimg.cc/L5LjwRcC/Orange-Minimalist-2.png")
+st.set_page_config(page_title="Navin's Pulse Vision-A Phonepe Data App",layout="wide", page_icon="https://i.postimg.cc/4xzCQFWX/rock-chart-2.png")
 violet_color = "#6F36AD"
 
-st.markdown("<div style='text-align:center'><a href='https://postimg.cc/VrCzqwSm'><img src='https://i.postimg.cc/3NhbLKN1/Navin-s-Pulse-Vision-NEW-resize.png' alt='pulse-2.webp'/></a></div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align:center'><a href='https://postimg.cc/VrCzqwSm'><img src='https://i.postimg.cc/VktZcrtg/Navin-s-Pulse-Vision-NEW-resize.png' alt='pulse-2.webp'/></a></div>", unsafe_allow_html=True)
 
 
 selected = option_menu("Navigation",
