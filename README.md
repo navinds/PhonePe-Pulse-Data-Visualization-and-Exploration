@@ -147,7 +147,7 @@ To include instructions on how to obtain the clone link for the PhonePe Pulse da
 
 9. You can now navigate to the cloned repository directory and access its contents using Git Bash or any file explorer.
 
-**Note:** Make sure you have Git installed on your computer before following these instructions. You can download Git from [here](https://git-scm.com/).
+**Note:** Make sure you have Git installed on your computer before following these instructions. You can download Git from [here](https://git-scm.com/downloads).
 
 
 ### Otherwise
