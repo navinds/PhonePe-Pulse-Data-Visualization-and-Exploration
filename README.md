@@ -7,7 +7,7 @@ Navin's Pulse Vision is a comprehensive data visualization project focused on an
 
 ## About PhonePe Pulse Data
 
-PhonePe Pulse is an insightful feature provided by PhonePe that offers users and businesses access to valuable data insights. It provides detailed information on transaction trends, user behavior, and insurance data across different states and districts in India.
+PhonePe Pulse is an insightful data provided by PhonePe that offers users and businesses access to valuable data. It provides data on transaction, user, and insurance across different states and districts in India.
 
 
 ## Data Source
