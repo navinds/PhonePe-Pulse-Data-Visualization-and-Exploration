@@ -383,7 +383,7 @@ if selected == "HOME":
                     - Enabled detailed data exploration through filter options, supporting informed decision-making in financial services and digital transactions.
                     """)
         
-        st.header("Discover Insights")
+        st.header(":violet[Discover Insights]")
         st.markdown("""
         - **Transaction Dynamics**: Explore transaction trends across states and districts, uncovering patterns in spending behavior.
         - **User Engagement**: Understand user behavior and engagement levels across different regions in India.
