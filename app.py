@@ -362,7 +362,7 @@ if selected == "HOME":
     def home_page():
         st.title(":violet[Welcome to Navin's Pulse Vision]")
         st.markdown("""
-        Navin's Pulse Vision is your gateway to comprehensive insights into India's financial landscape using Phonepe Pulse Data. Explore transaction data, user engagement, and insurance trends across states and districts with ease.
+        Navin's Pulse Vision is your gateway to comprehensive insights into India's financial landscape using Phonepe Pulse Data. Goal is to presents valuable insights from PhonePe Pulse data in an easy-to-understand format.
         """)
 
              # Introduction to PhonePe
