@@ -1,11 +1,11 @@
 # Navin's Pulse Vision
 
-Navin's Pulse Vision is a comprehensive data visualization project focused on analyzing PhonePe Pulse data. PhonePe is a leading Indian digital payments platform that empowers millions of users to seamlessly perform transactions, recharge phones, pay bills, and access various financial services.
+Navin's Pulse Vision is a comprehensive data visualization project focused on analyzing PhonePe Pulse data. PhonePe is a leading Indian digital payments platform that empowers millions of users to seamlessly perform transactions, recharge phones, pay bills, and access various financial services .
 [click here to see the app](https://navinspulsevision.streamlit.app/)
 
 ![Screenshot](https://i.postimg.cc/GhgwgS6G/Mix-Collage-08-Mar-2024-12-49-PM-8687.jpg) 
 
-## About PhonePe Pulse
+## About PhonePe Pulse Data
 
 PhonePe Pulse is an insightful feature provided by PhonePe that offers users and businesses access to valuable data insights. It provides detailed information on transaction trends, user behavior, and insurance data across different states and districts in India.
 
