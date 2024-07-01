@@ -17,6 +17,15 @@ The data used in this analysis is derived from PhonePe Pulse, offering reliable 
 
 ## Project Overview
 
+- Presents valuable insights from PhonePe Pulse data in an easy-to-understand format.
+- Utilized Plotly to create interactive visuals for detailed analysis of transaction amounts, user distribution, and insurance metrics.
+- Integrated Geo Maps for intuitive visualization of transaction, user, and insurance data across states and districts of India.
+- Analyzed factors that influence transaction amounts and counts in different regions, as well as fluctuations in transaction volumes across quarters.
+- Enabled detailed data exploration through filter options, supporting informed decision-making in financial services and digital transactions.
+
+
+## Project Features 
+
 Navin's Pulse Vision aims to extract valuable insights from PhonePe Pulse data and present them in an easy-to-understand format. The project analyzes three main types of data:
 
 1. **Transaction Data on States and Districts**: Contains state-wise and district-wise total transaction amount and count.
