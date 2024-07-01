@@ -369,9 +369,21 @@ if selected == "HOME":
         st.header(":violet[What is PhonePe?]")
         st.write("PhonePe is a leading Indian digital payments platform, empowering millions of users to seamlessly perform transactions, recharge phones, pay bills, and access various financial services.")
 
-        st.title(":violet[Unveiling India's Digital Landscape: Insights from PhonePe Pulse]")
-        st.header("Discover Insights")
+        st.header(":violet[What is PhonePe Pulse Data?]")
+        st.write("PhonePe Pulse is an insightful data provided by PhonePe that offers users and businesses access to valuable data. It provides data on transaction, user, and insurance across different states and districts in India.")
         
+        st.title(":violet[Unveiling India's Digital Landscape: Insights from PhonePe Pulse]")
+        
+        st.title(":violet[Project Summary ]")
+        st.markdown("""
+                    - Presents valuable insights from PhonePe Pulse data in an easy-to-understand format.
+                    - Utilized Plotly to create interactive visuals for detailed analysis of transaction amounts, user distribution, and insurance metrics.
+                    - Integrated Geo Maps for intuitive visualization of transaction, user, and insurance data across states and districts of India.
+                    - Analyzed factors that influence transaction amounts and counts in different regions, as well as fluctuations in transaction volumes across quarters.
+                    - Enabled detailed data exploration through filter options, supporting informed decision-making in financial services and digital transactions.
+                    """)
+        
+        st.header("Discover Insights")
         st.markdown("""
         - **Transaction Dynamics**: Explore transaction trends across states and districts, uncovering patterns in spending behavior.
         - **User Engagement**: Understand user behavior and engagement levels across different regions in India.
